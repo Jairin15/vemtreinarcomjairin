@@ -9,7 +9,9 @@ document.getElementById('login-form').addEventListener('submit', function (e) {
   // Simulação de base de usuários
   const usuarios = {
     "jairoguilherme21@gmail.com": { senha: "jairo@14", tipo: "personal" },
-    "aluno@exemplo.com": { senha: "123456", tipo: "aluno" }
+    "aluno@exemplo.com": { senha: "123456", tipo: "aluno" },
+    "juliagurgel@gmail.com": { senha: "123456", tipo: "aluno" },
+    "talya@gmail.com": { senha: "talya123", tipo: "aluno" }
   };
 
   // Verifica se o usuário existe e a senha confere
